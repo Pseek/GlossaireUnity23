@@ -2,7 +2,7 @@
 ## Variables
 boolean :
 integer :
-float :
+float : chiffre a virgule
 double :
 string :
 char : 
@@ -10,7 +10,7 @@ struct :
 enum : 
 
 ## Opérateurs booléens
-> : 
+> :  
 >= : 
 == : 
 != : 
