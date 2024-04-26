@@ -1,8 +1,9 @@
 # C#
 ## Variables
-boolean :
-integer :
-float : chiffre a virgule
+
+boolean : Une variable de type booléen qui ne peut prendre que deux valeurs : True (vrai) ou False (faux). Utilisée pour les conditions ou les boucles qui nécessitent une vérification de vérité.
+integer : Une variable de type entier qui contient des nombres sans partie décimale. Utilisée dans les calculs, les boucles etc.
+float :
 double :
 string :
 char : 
@@ -13,7 +14,7 @@ enum :
 > :  
 >= : 
 == : 
-!= : 
+!= : est different de
 <= :
 < : 
 && : 
@@ -54,8 +55,8 @@ region :
 using : 
 
 ## Accessibility
-public : 
-private : 
+public : definit un element comme etant accessible a tous les fichiers externes
+private : definit un element comme etant seulement accessible dans le fichier ou il est definit.
 protected :
 static : 
 Misc
@@ -274,11 +275,11 @@ Layer Default State :
 Any State :
 
 ## Audio
-AudioSource : 
-	PlayOnAwake :
-	Loop : 
-	Volume :
-	Pitch : 
+AudioSource : Composant d'un objet pour gérer un son
+	PlayOnAwake : Le son sera joué à la création de l'objet
+	Loop : Le son sera joué en boucle
+	Volume : Le volume du son
+	Pitch : Hauteur du son
 AudioMixer : 
 AudioListener : 
 

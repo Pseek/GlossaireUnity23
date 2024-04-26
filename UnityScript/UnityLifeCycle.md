@@ -21,19 +21,19 @@ FixedUpdate : Une méthode qui se lance à chaque frame moteur
 	{
 		Debug.Log("Le Script se fait à chaque frame moteur")
 	}```
-LateUpdate : une méthode qui se lance à la fin de la frame
+LateUpdate : une méthode qui se lance après la méthode Update
 	```public void LateUpdate()
 	{
-		Debug.Log("Le Script se fait à la fin de la frame")
+		Debug.Log("Le Script se fait après la méthode Update")
 	}```
-OnEnable : Une méthode qui active l'objet
+OnEnable : Une méthode qui s'active lorsque l'objet est activé
 	```public void OnEnable()
 	{
-		Debug.Log("Le Script est activé")
+		Debug.Log("L'objet est activé")
 	}```
-OnDisable : une méthode qui désacvite l'objet
+OnDisable : une méthode qui s'active lorsque l'objet est desactivé
 	```public void OnDisable()
 		{
-			Debug.Log("Le Script est désactivé")
+			Debug.Log("L'objet est désactivé")
 		}```
 OnDrawGizmos :
